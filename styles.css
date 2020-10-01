@@ -269,3 +269,39 @@ figure {
   height: inherit;
   flex-wrap: inherit;
 }
+
+@media screen and (max-width: 1024px) { 
+  h1 strong {
+    color: rgb(254, 255, 192);
+  }
+  }
+  
+  @media screen and (max-width: 768px) { 
+    .container {
+      width: 768px;}
+      .project-imageContainer {
+        width: 380px;}
+        
+  }
+
+  @media screen and (max-width: 480px) { 
+    .container {
+      width: 480px;}
+    .portfolio {
+        width: 480px;}
+    
+    .project-image{
+      width: 240px;
+    }
+  }
+
+  @media screen and (max-width: 320px) { 
+    .container {
+      width: 320px;}
+    .portfolio {
+        width: 320px;}
+    
+    .project-image{
+      width: 100px;
+    }
+  }
